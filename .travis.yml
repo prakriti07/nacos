@@ -7,6 +7,9 @@ notifications:
   on_failure: always
 
 language: java
+arch:
+  - amd64
+  - arm64
 
 matrix:
   include:
